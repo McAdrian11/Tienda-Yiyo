@@ -1,0 +1,407 @@
+{
+    "status": "success",
+    "items": [{
+            "id": 1,
+            "title": "ACELGA",
+            "price": 7.00,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/527070-1000-1000/4134-1.jpg?v=637819362758300000?auto=compress&amp;h=305",
+            "category": "rolex"
+        },
+        {
+            "id": 2,
+            "title": "AJÍ AMARILLO",
+            "price": 6.50,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/212875-1000-1000/Aji-Amarillo-x-kg-1-169029.jpg?v=636568724670370000?auto=compress&amp;h=305",
+            "category": "omega"
+        },
+        {
+            "id": 3,
+            "title": "AJÍ LIMO",
+            "price": 14.00,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/236996-1000-1000/Aji-Limo-Metro-x-kg-1-219954.jpg?v=636693565649670000?auto=compress&amp;h=305",
+            "category": "audemars"
+        },
+        {
+            "id": 4,
+            "title": "ROCOTO",
+            "price": 6.00,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/212913-1000-1000/Rocoto-x-kg-1-214959.jpg?v=636568764200830000?auto=compress&amp;h=305",
+            "category": "hublot"
+        },
+        {
+            "id": 5,
+            "title": "AJO",
+            "price": 15.00,
+            "image": "https://e39a9f00db6c5bc097f9-75bc5dce1d64f93372e7c97ed35869cb.ssl.cf1.rackcdn.com/42259104-zLIqBp00.jpg?auto=compress&amp;h=305",
+            "category": "rolexDay"
+
+        },
+        {
+            "id": 6,
+            "title": "AJO PELADO",
+            "price": 3.50,
+            "image": "https://e39a9f00db6c5bc097f9-75bc5dce1d64f93372e7c97ed35869cb.ssl.cf1.rackcdn.com/41076332_1-0YSTM1fV.jpg?auto=compress&amp;h=305",
+            "category": "tag"
+
+        },
+        {
+            "id": 7,
+            "title": "ALBAHACA",
+            "price": 5.50,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/547839-1000-1000/4133-1.jpg?v=637896267444230000?auto=compress&amp;h=305",
+            "category": "rolex"
+        },
+        {
+            "id": 8,
+            "title": "ARVERJA",
+            "price": 6.00,
+            "image": "https://e39a9f00db6c5bc097f9-75bc5dce1d64f93372e7c97ed35869cb.ssl.cf1.rackcdn.com/img-qhEsXE1Z.jpg?auto=compress&amp;h=305",
+            "category": "omega"
+        },
+        {
+            "id": 9,
+            "title": "APIO",
+            "price": 2.00,
+            "image": "https://e39a9f00db6c5bc097f9-75bc5dce1d64f93372e7c97ed35869cb.ssl.cf1.rackcdn.com/10162986_1-1ggsIaRg.jpg?auto=compress&amp;h=305",
+            "category": "audemars"
+        },
+        {
+            "id": 10,
+            "title": "BERENJENA",
+            "price": 2.00,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/525128-1000-1000/4002-1.jpg?v=637812452019200000?auto=compress&amp;h=305",
+            "category": "hublot"
+        },
+        {
+            "id": 11,
+            "title": "BETERRAGA",
+            "price": 3.00,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/165242-1000-1000/Frontal-5809.jpg?v=636415350968600000?auto=compress&amp;h=305",
+            "category": "rolexDay"
+        },
+        {
+            "id": 12,
+            "title": "BRÓCOLI",
+            "price": 3.00,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/236993/Brocoli-Metro-x-kg-1-111695.jpg?v=636693558375400000?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 13,
+            "title": "CAIGUA",
+            "price": 0.80,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/165288-1000-1000/Caigua-Wong-1-7364.jpg?v=636415351387930000?auto=compress&amp;h=305",
+            "category": "rolex"
+        },
+        {
+            "id": 14,
+            "title": "CAMOTE AMARILLO",
+            "price": 2.80,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/341191-1000-1000/Camote-Amarillo-Especial-x-kg-1-22937.jpg?v=637136605710270000?auto=compress&amp;h=305",
+            "category": "omega"
+        },
+        {
+            "id": 15,
+            "title": "CAMOTE MORADO",
+            "price": 3.00,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/226304-1000-1000/Camote-Morado-Metro-x-kg-1-146199.jpg?v=636637857285270000?auto=compress&amp;h=305",
+            "category": "audemars"
+        },
+        {
+            "id": 16,
+            "title": "CEBOLLA ROSADA",
+            "price": 3.20,
+            "image": "https://e39a9f00db6c5bc097f9-75bc5dce1d64f93372e7c97ed35869cb.ssl.cf1.rackcdn.com/42259095-PDFUaV3K.jpg?auto=compress&amp;h=305",
+            "category": "hublot"
+        },
+        {
+            "id": 17,
+            "title": "CEBOLLA BLANCA",
+            "price": 3.00,
+            "image": "https://e39a9f00db6c5bc097f9-75bc5dce1d64f93372e7c97ed35869cb.ssl.cf1.rackcdn.com/42259094-Le2L_IXQ.jpg?auto=compress&amp;h=305",
+            "category": "rolexDay"
+
+        },
+        {
+            "id": 18,
+            "title": "CEBOLLA CHINA",
+            "price": 4.00,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/161769-1000-1000/Cebolla-China-Wong-x-Atado-4011.jpg?v=636118694654370000?auto=compress&amp;h=305",
+            "category": "tag"
+
+        },
+        {
+            "id": 19,
+            "title": "CHAMPIÑON",
+            "price": 60,
+            "image": "https://e39a9f00db6c5bc097f9-75bc5dce1d64f93372e7c97ed35869cb.ssl.cf1.rackcdn.com/10399262_1-O8NFbAmG.jpg?auto=compress&amp;h=305",
+            "category": "rolex"
+        },
+        {
+            "id": 20,
+            "title": "CHOCLO",
+            "price": 2.00,
+            "image": "https://e39a9f00db6c5bc097f9-75bc5dce1d64f93372e7c97ed35869cb.ssl.cf1.rackcdn.com/img-vT1aiB8w.jpg?auto=compress&amp;h=3055",
+            "category": "omega"
+        },
+        {
+            "id": 21,
+            "title": "COL",
+            "price": 6.00,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/353523-1000-1000/4183-01-3101.jpg?v=637224192853800000?auto=compress&amp;h=305",
+            "category": "audemars"
+        },
+        {
+            "id": 22,
+            "title": "COLIFLOR",
+            "price": 4.50,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/170757/4018-1.jpg?v=636434979224770000?auto=compress&amp;h=305",
+            "category": "hublot"
+        },
+        {
+            "id": 23,
+            "title": "CULANTRO",
+            "price": 2.50,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/547838/4132-1.jpg?v=637896266976200000?auto=compress&amp;h=305",
+            "category": "rolexDay"
+        },
+        {
+            "id": 24,
+            "title": "ESPINACA",
+            "price": 3.00,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/353550/4020-01-7353.jpg?v=637224192937930000?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 26,
+            "title": "FRIJOL BLANCO",
+            "price": 6.00,
+            "image": "https://www.nutrafeliz.cl/wp-content/uploads/2021/09/shutterstock_95306314-Poroto-blanco-kxk.jpg?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 27,
+            "title": "HABAS",
+            "price": 3.60,
+            "image": "https://t2.uc.ltmcdn.com/es/posts/1/4/5/como_preparar_una_crema_de_habas_5541_600.jpg?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 28,
+            "title": "HUACATAY",
+            "price": 6.00,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/353542-1000-1000/4136-01-7416.jpg?v=637224192913700000?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 29,
+            "title": "KIÓN",
+            "price": 7.00,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/212592/Kion-x-kg-KION-1-146203.jpg?v=636568076067430000?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 30,
+            "title": "LECHUGA AMERICANA",
+            "price": 2.00,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/527001-750-750/4027-1.jpg?v=637819248912670000?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 31,
+            "title": "LECHUGA ORGÁNICA",
+            "price": 1.80,
+            "image": "https://cdn.shopify.com/s/files/1/0364/9617/9333/products/greenice_1024x1024@2x.jpg?v=1591647415?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 32,
+            "title": "LECHUGA SEDA",
+            "price": 2.00,
+            "image": "https://tumercadoperu.com/wp-content/uploads/2020/08/lechuga-seda.png?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 33,
+            "title": "LIMÓN TAHITÍ",
+            "price": 4.00,
+            "image": "https://tumercadoperu.com/wp-content/uploads/2022/04/limont.jpg?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 33,
+            "title": "LIMÓN EXTRA",
+            "price": 4.00,
+            "image": "https://tumercadoperu.com/wp-content/uploads/2020/08/limo.png?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 34,
+            "title": "MAÍZ MORADO",
+            "price": 4.00,
+            "image": "https://tumercadoperu.com/wp-content/uploads/2020/08/maiz-morado.png?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 35,
+            "title": "MANZANA DE AGUA",
+            "price": 3.50,
+            "image": "https://tumercadoperu.com/wp-content/uploads/2020/08/manzana-de-agua-x-kg-exo-igv.png?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 36,
+            "title": "MARACUYÁ",
+            "price": 4.00,
+            "image": "https://tumercadoperu.com/wp-content/uploads/2020/08/maracuya.png?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 37,
+            "title": "NABO",
+            "price": 1.00,
+            "image": "https://tumercadoperu.com/wp-content/uploads/2020/08/NABO.jpg?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 38,
+            "title": "OLLUCO ENTERO",
+            "price": 4.00,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/226305-1000-1000/Olluco-Metro-x-kg-1-146200.jpg?v=636637857296530000?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 40,
+            "title": "PAPA AMARILLA",
+            "price": 3.50,
+            "image": "https://plazavea.vteximg.com.br/arquivos/ids/1256162-450-450/991086.jpg?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 41,
+            "title": "PAPA YUNGAY",
+            "price": 2.50,
+            "image": "https://tumercadoperu.com/wp-content/uploads/2020/11/3.png?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 42,
+            "title": "PAPA HUAMANTANGA",
+            "price": 3.50,
+            "image": "https://www.agrorural.gob.pe/wp-content/uploads/2020/11/PAPA-HUAMANTANGA-R.jpg?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 43,
+            "title": "PAPA HUAYRO",
+            "price": 3.50,
+            "image": "https://tumercadoperu.com/wp-content/uploads/2020/11/huayro.png?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 44,
+            "title": "PAPA PERUANITA",
+            "price": 3.50,
+            "image": "https://tumercadoperu.com/wp-content/uploads/2020/11/17672.png?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 45,
+            "title": "PAPA ROSADA",
+            "price": 2.50,
+            "image": "https://www.normita.com/wp-content/uploads/2020/05/papa-rosada-1.jpg?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 46,
+            "title": "HIERBA BUENA",
+            "price": 2.00,
+            "image": "https://tumercadoperu.com/wp-content/uploads/2020/08/hierba-buena.png?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 47,
+            "title": "PEREJIL",
+            "price": 2.00,
+            "image": "https://tumercadoperu.com/wp-content/uploads/2020/11/fresh-parsley-isolated-scaled.jpg?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 48,
+            "title": "PEPINO",
+            "price": 1.50,
+            "image": "https://tumercadoperu.com/wp-content/uploads/2020/11/cucumber-sliced-isolated-on-white-space-scaled.jpg?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 49,
+            "title": "PIMIENTO ROJO",
+            "price": 1.50,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/212593-1000-1000/Pimiento-x-kg-PIMIENTO-1-146202.jpg?v=636568076072370000?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 50,
+            "title": "PIMIENTO AMARILLO",
+            "price": 2.50,
+            "image": "https://tuchacrita.pe/299-large_default/pimenton-amarillo.jpg?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 51,
+            "title": "PIMIENTO VERDE",
+            "price": 2.50,
+            "image": "http://www.disgralec.com/416-large_default/pimiento-verde-6u.jpg?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 52,
+            "title": "RABANITO",
+            "price": 2.50,
+            "image": "https://tumercadoperu.com/wp-content/uploads/2020/11/fresh-radish-isolated-on-white-scaled.jpg?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 53,
+            "title": "TOMATE",
+            "price": 5.50,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/212566/Tomate-Italiano-x-kg-TOMATE-ITALIANO-1-31319.jpg?v=636568071858100000?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 54,
+            "title": "VAINITA",
+            "price": 5.50,
+            "image": "https://e39a9f00db6c5bc097f9-75bc5dce1d64f93372e7c97ed35869cb.ssl.cf1.rackcdn.com/img-WHP26EN4.jpg?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 55,
+            "title": "YUCA",
+            "price": 3.50,
+            "image": "https://tumercadoperu.com/wp-content/uploads/2020/11/yuca.jpg?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 56,
+            "title": "ZANAHORIA",
+            "price": 2.50,
+            "image": "https://soycomocomo.es/media/2019/03/zanahorias.jpg?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 57,
+            "title": "ZAPALLITO ITALIANO",
+            "price": 3.00,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/165298/Zapallito-Italiano-Wong-1-7367.jpg?v=636415351442830000?auto=compress&amp;h=305",
+            "category": "tag"
+        },
+        {
+            "id": 58,
+            "title": "ZAPALLO MACRE",
+            "price": 3.00,
+            "image": "https://wongfood.vteximg.com.br/arquivos/ids/165241/frontal-5808.jpg?v=636415350960470000?auto=compress&amp;h=305",
+            "category": "tag"
+        }
+    ]
+}

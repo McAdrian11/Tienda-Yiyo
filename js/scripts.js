@@ -11,13 +11,17 @@ const detalles = document.getElementById('detalles')
 
 let carrito = [];
 let buttonDOM = [];
-
+//alerta
+function alerta() {
+	alert("Una vez todo este bien, tome captura de pantalla de todos los productos y el costo total. Luego mándelo por WhatsApp.")
+}
+//
 class UI {
 
 	detalleProducto(id){
 		const filtroDato = productos.filter(item => item.id == id)
 		let result = ""
-		filtroDato.forEach(producto => {
+		/* filtroDato.forEach(producto => {
 			result += `
 			<article class="detalle-grid">
 				<img src=${producto.image} alt="${producto.title}" class="img-fluid">
@@ -57,7 +61,7 @@ class UI {
 			</article>
 			`
 		});
-		detalles.innerHTML = result;
+		detalles.innerHTML = result; */
 	}
 
 	renderProductos(productos){
@@ -77,7 +81,7 @@ class UI {
           </div>
           <div class="bottom">
             <div class="btn__group">
-              <button class="btn addToCart" data-id=${producto.id}>Añadir carrito</button>
+              <button class="btn addToCart" data-id=${producto.id}>Agregar al carrito</button>
               
             </div>
           </div>
@@ -167,6 +171,7 @@ class UI {
 		carritoDOM.classList.remove("show")
 		overlay.classList.remove("show")
 	}
+	
 	setAPP(){
 		carrito = Storage.getCart()
 		this.setItemValues(carrito)

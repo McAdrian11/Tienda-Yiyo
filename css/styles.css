@@ -67,8 +67,8 @@ li {
   width: 100%;
   padding: 1.5rem 0;
   line-height: 1rem;
-  /* background-color: rgb(0, 117, 0); */
-  background-image: url(https://static.vecteezy.com/system/resources/previews/002/528/618/non_2x/healthy-and-vegetarian-food-pattern-in-green-background-vector.jpg);
+  background-color: rgb(2, 148, 2);
+  /* background-image: url(https://static.vecteezy.com/system/resources/previews/002/528/618/non_2x/healthy-and-vegetarian-food-pattern-in-green-background-vector.jpg); */
   background-size: 100%;
 }
 .nav__center {
@@ -77,10 +77,16 @@ li {
   align-items: center;
   height: 100%;
 }
+.nav__logo img {
+  width: 90px;
+}
 .nav__logo {
+  /* width: 80px; */
   font-size: 2.5rem;
   color: var(--white);
   text-shadow: 2px 2px 4px black;
+  display: flex;
+  align-items: center;  
 }
 .nav__logo span {
   color: var(--amarillo);
@@ -99,12 +105,13 @@ li {
 .carrito__icon {
   position: relative;
   cursor: pointer;
-  text-shadow: 2px 2px 4px black;
+  /* text-shadow: 2px 2px 4px black; */
 }
 .carrito__icon i {
   margin-top: 0.6rem;
   font-size: 4.5rem;
-  color: var(--amarillo);
+  /* color: var(--amarillo); */
+  color: #222;
 }
 .carrito__icon span {
   position: absolute;
@@ -420,6 +427,23 @@ input {
 @media only screen and (max-width: 840px) {
   body{
     font-size: 1.2rem;
+  }
+  .nav {
+    padding: 0.5rem;
+  }
+  .nav__logo img {
+    width: 60px;
+  }
+  .nav__logo {
+    /* width: 80px; */
+    font-size: 1.5rem;
+    color: var(--white);
+    text-shadow: 2px 2px 4px black;
+    display: flex;
+    align-items: center;  
+  }
+  .carrito__icon i {
+    font-size: 3.0rem;
   }
   .producto__footer{
     padding-right: 15px;

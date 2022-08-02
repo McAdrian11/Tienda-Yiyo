@@ -89,7 +89,8 @@ li {
   align-items: center;  
 }
 .nav__logo span {
-  color: var(--amarillo);
+  /* color: var(--amarillo); */
+  color: #db910b;
 }
 .nav__list {
   display: flex;

@@ -65,11 +65,11 @@ li {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 1.5rem 0;
+  /* padding: 1.5rem 0; */
   line-height: 1rem;
   background-color: rgb(2, 148, 2);
   /* background-image: url(https://static.vecteezy.com/system/resources/previews/002/528/618/non_2x/healthy-and-vegetarian-food-pattern-in-green-background-vector.jpg); */
-  background-size: 100%;
+  /* background-size: 100%; */
 }
 .nav__center {
   display: flex;
@@ -430,7 +430,7 @@ input {
     font-size: 1.2rem;
   }
   .nav {
-    padding: 0rem;
+    padding: 0.5rem;
   }
   .nav__logo img {
     width: 60px;
@@ -460,7 +460,7 @@ input {
     justify-content: space-between;
   }
   .productos{
-    padding: 9rem 0;
+    padding: 7.5rem 0;
   }
   .detalle-grid {
     grid-template-columns: 1fr;

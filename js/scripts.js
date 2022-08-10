@@ -170,7 +170,8 @@ class UI {
       } else if (target.classList.contains("decrease")) {
         const id = parseInt(target.dataset.id, 10);
         let tempItem = carrito.find((item) => item.id === id);
-        tempItem.cantidad--;
+        /* tempItem.cantidad--; */
+        tempItem.cantidad = tempItem.cantidad - 0.25;
 
         if (tempItem.cantidad > 0) {
           Storage.saveCart(carrito);

@@ -107,11 +107,14 @@ li {
 .carrito__icon {
   position: relative;
   cursor: pointer;
+  /* background: #db910b; */
+  border-radius: 20%;
   /* text-shadow: 2px 2px 4px black; */
 }
 .carrito__icon i {
   margin-top: 0.6rem;
   font-size: 4.5rem;
+  text-shadow: 2px 2px 4px #db910b;
   /* color: var(--amarillo); */
   color: #222;
 }

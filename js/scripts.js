@@ -172,6 +172,7 @@ class UI {
         let tempItem = carrito.find((item) => item.id === id);
         /* tempItem.cantidad--; */
         tempItem.cantidad = tempItem.cantidad - 0.25;
+        tempItem.cantidad <= 0 ? (tempItem.cantidad = 0.25) : null;
 
         if (tempItem.cantidad > 0) {
           Storage.saveCart(carrito);

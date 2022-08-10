@@ -122,8 +122,9 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--rojo);
-  color: var(--white);
+  /* background-color: var(--rojo); */
+  /* color: var(--white); */
+  color: transparent;
   padding: 0.5rem;
   font-size: 1.5rem;
   font-weight: 700;

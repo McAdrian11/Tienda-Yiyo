@@ -19,51 +19,10 @@ let buttonDOM = [];
 } */
 //
 class UI {
-  detalleProducto(id) {
+  /* detalleProducto(id) {
     const filtroDato = productos.filter((item) => item.id == id);
     let result = "";
-    /* filtroDato.forEach(producto => {
-			result += `
-			<article class="detalle-grid">
-				<img src=${producto.image} alt="${producto.title}" class="img-fluid">
-				<div class="detalles-content">
-					<h3>${producto.title}</h3>
-					<div class="rating">
-						<span>
-							<i class="bx bxs-star"></i>
-						</span>
-						<span>
-							<i class="bx bxs-star"></i>
-						</span>
-						<span>
-							<i class="bx bxs-star"></i>
-						</span>
-						<span>
-							<i class="bx bxs-star"></i>
-						</span>
-						<span>
-							<i class="bx bx-star"></i>
-						</span>
-					</div>
-						<p class="price"><b>Precio: </b> S/.${producto.price}</p>
-						<p class="description">
-							<b>Descripcion: </b> <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta quae ad ex sint expedita perspiciatis odit eligendi! Et quia ex aperiam dolorum sunt omnis maiores. Repudiandae delectus iste exercitationem vel?</span>
-						</p>
-						<p class="description">
-							<span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptates consequuntur in assumenda odit hic, aut cupiditate dolorem aspernatur! Quibusdam iusto magnam vero maxime quisquam voluptatibus minima aliquam molestias, iure ratione commodi, reiciendis quasi.</span>
-						</p>
-
-						<div class="bottom">
-							<div class="btn__group">
-								<button class="btn addToCart" data-id=${producto.id}>Añadir carrito</button>
-							</div>
-						</div>
-				</div>
-			</article>
-			`
-		});
-		detalles.innerHTML = result; */
-  }
+  } */
 
   renderProductos(productos) {
     let result = "";
@@ -109,7 +68,7 @@ class UI {
         e.target.disabled = true;
 
         // GET productos al carrito
-        const carritoItem = { ...Storage.getProductos(id), cantidad: 1 };
+        const carritoItem = { ...Storage.getProductos(id), cantidad: 0.25 };
 
         //agregamos el producto al carrito
         carrito = [...carrito, carritoItem];
@@ -129,8 +88,10 @@ class UI {
     let tempTotal = 0;
     let itemTotal = 0;
     carrito.map((item) => {
-      tempTotal += item.price * item.cantidad;
-      itemTotal += item.cantidad;
+      /* tempTotal += item.price * item.cantidad; */
+      tempTotal = tempTotal + item.price * item.cantidad;
+      /* itemTotal += item.cantidad; */
+      itemTotal = itemTotal + item.cantidad;
     });
     carritoTotal.innerText = parseFloat(tempTotal.toFixed(2));
     itemTotales.innerText = itemTotal;
@@ -150,7 +111,7 @@ class UI {
 			<span class="increase" data-id=${id}>
 				<i class="bx bxs-up-arrow"></i>
 			</span>
-			<p class="item__cantidad">1</p>
+			<p class="item__cantidad">0.25</p>
 			<span class="decrease" data-id=${id}>
 				<i class="bx bxs-down-arrow"></i>
 			</span>
@@ -201,7 +162,8 @@ class UI {
       } else if (target.classList.contains("increase")) {
         const id = parseInt(target.dataset.id, 10);
         let tempItem = carrito.find((item) => item.id === id);
-        tempItem.cantidad++;
+        /* tempItem.cantidad++; */
+        tempItem.cantidad = tempItem.cantidad + 0.25;
         Storage.saveCart(carrito);
         this.setItemValues(carrito);
         target.nextElementSibling.innerText = tempItem.cantidad;

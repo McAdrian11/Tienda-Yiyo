@@ -104,7 +104,7 @@ class UI {
     div.innerHTML = `
 		<img src=${image} alt=${title}>
 		<div>
-			<h3>${title}</h3>
+			<h3>${title}</h3> 
 			<p class="price">S/.${price}</p>
 		</div>
 		<div>
@@ -239,7 +239,7 @@ class Productos {
   }
 }
 
-let category = "";
+/* let category = "";
 let productos = [];
 
 function categoryValue() {
@@ -254,7 +254,7 @@ function categoryValue() {
     ui.renderProductos(productos);
     ui.getButtons();
   }
-}
+} */
 
 const query = new URLSearchParams(window.location.search);
 let id = query.get("id");

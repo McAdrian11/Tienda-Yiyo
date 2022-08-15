@@ -321,10 +321,10 @@ input {
 }
 .total {
   font-size: 20px;
-  color: red;
+  color: var(--rojo);
   margin: 5px;
 }
-.carrito__footer .btn {
+.clear__carrito {
   display: inline-block;
   padding: 1rem 3rem;
   font-size: 2rem;
@@ -332,9 +332,14 @@ input {
   border: none;
   margin-top: 2rem;
 }
+.clear__carrito:hover{
+  background-color: var(--rojo);
+  border: 1px solid var(--rojo);
+}
 .carrito__footer .btn:focus {
   outline: none;
 }
+
 .btn-wsp {
   position: fixed;
   width: 60px;

@@ -147,7 +147,7 @@ li {
   padding: 0 3rem;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
   gap: 3rem 1rem;
 }
 .producto,
@@ -302,10 +302,9 @@ input {
 .carrito__item img {
   width: 9rem;
 }
-/* .carrito__iem h3 {
+.carrito__item h3 {
   font-weight: 500;
-  margin-bottom: 1.5rem;
-} */
+}
 .carrito__item .price {
   color: var(--azul);
   font-weight: 700;
@@ -328,6 +327,7 @@ input {
   display: inline-block;
   padding: 1rem 3rem;
   font-size: 2rem;
+  font-weight: bold;
   background-color: rgb(238, 121, 121);
   border: none;
   margin-top: 2rem;
@@ -487,10 +487,30 @@ input {
     height: 95%;
     border-radius: 1rem;
   }
-  /* .carrito__item h3 {
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
-  } */
+  .carrito__item {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    width: 70%;
+    margin: 4px auto;
+    text-align: center;
+  }
+  .carrito__item div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .carrito__footer {
+    margin: 1rem;
+  }
+  .total{
+    font-weight: bold;
+  }
+  .clear__carrito {
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
   .btn {
     padding: 0.8rem 1.5rem;
     font-size: 1.6rem;

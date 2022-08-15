@@ -278,3 +278,4 @@ document.addEventListener("DOMContentLoaded", async () => {
     ui.cartLogic();
   }
 });
+

@@ -505,6 +505,7 @@ input {
   .producto {
     display: flex;
     justify-content: space-between;
+    font-size: 9.5px;
   }
   .productos {
     padding: 7.5rem 0;
